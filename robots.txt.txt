@@ -1,0 +1,45 @@
+# robots.txt for Georgia Auto Dealer License Classes Ranking Website
+
+# Disallow all crawlers from accessing the entire site
+User-agent: *
+Disallow: /
+
+# Disallow specific directories (for added clarity)
+User-agent: *
+Disallow: /rankings/
+Disallow: /methodology/
+Disallow: /comparison/
+Disallow: /reviews/
+Disallow: /faq/
+Disallow: /resources/
+
+# Disallow specific file types
+User-agent: *
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+
+# Specifically block major search engines
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+# Block Internet Archive
+User-agent: ia_archiver
+Disallow: /
